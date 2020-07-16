@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/progress_triple_point"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+        android:id="@+id/progress_sub"
+        android:layout_width="@dimen/progress_sub_size_60"
+        android:layout_height="@dimen/progress_sub_size_60">
+
+        <ImageView
+            android:id="@+id/progress_circle01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/progressbar_margin_13"
+            android:background="@drawable/shape_progressbar_point_circle"
+            android:backgroundTint="@color/point_top_purple" />
+
+        <ImageView
+            android:id="@+id/progress_circle04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/progressbar_margin_13"
+            android:background="@drawable/shape_progressbar_point_circle"
+            android:backgroundTint="@color/point_bottom_gray_50" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/progress_circle02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/progressbar_margin_13"
+                android:background="@drawable/shape_progressbar_point_circle"
+                android:backgroundTint="@color/point_left_gray_75" />
+
+            <ImageView
+                android:id="@+id/progress_circle03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/progressbar_margin_13"
+                android:background="@drawable/shape_progressbar_point_circle"
+                android:backgroundTint="@color/point_right_gray_25" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="commonColorWhite">#FFFFFF</color>
+    <color name="commonColorBlack">#000000</color>
+    <color name="commonColorPurpleLight">#975709EC</color>
+    <color name="commonColorPrimary">#9575CD</color>
+    <color name="colorBackgroundDim">#D9353239</color>
+
+    <color name="scb_purple">#7631C1</color>
+    <color name="white_alpha_90">#E6FFFFFF</color>
+
+    <!-- PROGRESSBAR FULLSCREEN-->
+    <color name="point_top_purple">#7631C1</color>
+    <color name="point_left_gray_75">#736E78</color>
+    <color name="point_bottom_gray_50">#C9C6CD</color>
+    <color name="point_right_gray_25">#EAE7EC</color>
+</resources>

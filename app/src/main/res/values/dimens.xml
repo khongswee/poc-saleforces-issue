@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+
+    <dimen name="padding_5">5dp</dimen>
+
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_22">22sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+    <dimen name="text_36">36sp</dimen>
+
+    <dimen name="size_0">0dp</dimen>
+    <dimen name="size_200">200dp</dimen>
+    <dimen name="size_300">300dp</dimen>
+
+    <!--progress bar-->
+    <dimen name="progressbar_size_64">64dp</dimen>
+
+    <!-- progress animation-->
+    <dimen name="view_size_0">0dp</dimen>
+    <dimen name="image_alpha_30">0.3</dimen>
+    <dimen name="progress_circle_size">3dp</dimen>
+    <dimen name="progressbar_size">80dp</dimen>
+    <dimen name="progressbar_circle_thickness">4dp</dimen>
+    <dimen name="progressbar_circle_small_size">5dp</dimen>
+    <dimen name="progressbar_circle_big_size">10dp</dimen>
+    <dimen name="progressbar_margin_3">3dp</dimen>
+    <dimen name="progressbar_margin_10">10dp</dimen>
+    <dimen name="progressbar_margin_13">13dp</dimen>
+    <dimen name="circle_progressbar_size">10dp</dimen>
+    <dimen name="text_progress_margin_top_48">48dp</dimen>
+    <dimen name="text_progress_margin_top_8">8dp</dimen>
+    <dimen name="text_progress_margin_top_16">16dp</dimen>
+    <dimen name="text_progress_margin_40">40dp</dimen>
+    <dimen name="progress_sublayout_size_40">40dp</dimen>
+    <dimen name="progress_sub_size_60">60dp</dimen>
+    <dimen name="predictive_marginTop">-40dp</dimen>
+
+</resources>
